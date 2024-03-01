@@ -1,0 +1,229 @@
+import * as React from "react";
+import { Text, StyleSheet, View } from "react-native";
+import { Color, FontFamily, FontSize } from "../GlobalStyles";
+
+const AndroidLarge = () => {
+  return (
+    <View style={styles.androidLarge1}>
+      <Text style={[styles.blinkit, styles.blinkitPosition]}>
+        <Text style={styles.blink}>blink</Text>
+        <Text style={styles.it}>it</Text>
+      </Text>
+      <Text style={[styles.indiasLastMinute, styles.blinkitPosition]}>
+        India’s Last Minute App
+      </Text>
+      <View style={styles.androidLarge1Child} />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  blinkitPosition: {
+    textAlign: "left",
+    left: 66,
+    position: "absolute",
+  },
+  blink: {
+    color: "#000200",
+  },
+  it: {
+    color: Color.colorLimegreen,
+  },
+  blinkit: {
+    top: 264,
+    fontSize: 80,
+    fontFamily: FontFamily.interRegular,
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textShadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    textShadowRadius: 4,
+  },
+  indiasLastMinute: {
+    top: 361,
+    fontSize: FontSize.size_xl,
+    fontFamily: FontFamily.inknutAntiquaRegular,
+    color: Color.colorBlack,
+  },
+  androidLarge1Child: {
+    top: 41,
+    left: 165,
+    width: 100,
+    height: 100,
+    position: "absolute",
+    overflow: "hidden",
+  },
+  androidLarge1: {
+    backgroundColor: Color.bLINKIT,
+    flex: 1,
+    width: "100%",
+    height: 800,
+    overflow: "hidden",
+  },
+});
+
+export default AndroidLarge;
+import * as React from "react";
+import { Image } from "expo-image";
+import { StyleSheet, View } from "react-native";
+import { Color } from "../GlobalStyles";
+
+const AndroidLarge1 = () => {
+  return (
+    <View style={styles.androidLarge2}>
+      <Image
+        style={styles.blinkit21Icon}
+        contentFit="cover"
+        source={require("../assets/blinkit2-1.png")}
+      />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  blinkit21Icon: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: 454,
+    height: 800,
+  },
+  androidLarge2: {
+    backgroundColor: Color.colorWhite,
+    flex: 1,
+    width: "100%",
+    overflow: "hidden",
+    height: 800,
+  },
+});
+
+export default AndroidLarge1;
+import * as React from "react";
+import { Image } from "expo-image";
+import { StyleSheet, View } from "react-native";
+import { Color } from "../GlobalStyles";
+
+const AndroidLarge2 = () => {
+  return (
+    <View style={styles.androidLarge3}>
+      <Image
+        style={styles.blinkit41Icon}
+        contentFit="cover"
+        source={require("../assets/blinkit4-1.png")}
+      />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  blinkit41Icon: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: 405,
+    height: 800,
+  },
+  androidLarge3: {
+    backgroundColor: Color.colorWhite,
+    flex: 1,
+    width: "100%",
+    overflow: "hidden",
+    height: 800,
+  },
+});
+
+export default AndroidLarge2;
+import * as React from "react";
+import { Image } from "expo-image";
+import { StyleSheet, View } from "react-native";
+import { Color } from "../GlobalStyles";
+
+const AndroidLarge3 = () => {
+  return (
+    <View style={styles.androidLarge4}>
+      <Image
+        style={styles.blinkit61Icon}
+        contentFit="cover"
+        source={require("../assets/blinkit6-1.png")}
+      />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  blinkit61Icon: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: 376,
+    height: 800,
+  },
+  androidLarge4: {
+    backgroundColor: Color.bLINKIT,
+    flex: 1,
+    width: "100%",
+    overflow: "hidden",
+    height: 800,
+  },
+});
+
+export default AndroidLarge3;
+import * as React from "react";
+import { StyleSheet, View } from "react-native";
+import { Color } from "../GlobalStyles";
+
+const AndroidLarge4 = () => {
+  return <View style={styles.androidLarge5} />;
+};
+
+const styles = StyleSheet.create({
+  androidLarge5: {
+    backgroundColor: Color.bLINKIT,
+    flex: 1,
+    width: "100%",
+    height: 800,
+    overflow: "hidden",
+  },
+});
+
+export default AndroidLarge4;
+import * as React from "react";
+import { StyleSheet, View } from "react-native";
+import { Border } from "../GlobalStyles";
+
+const Rectangle = () => {
+  return <View style={styles.rectangleView} />;
+};
+
+const styles = StyleSheet.create({
+  rectangleView: {
+    borderRadius: Border.br_3xs,
+    backgroundColor: "#6064b8",
+    width: 297,
+    height: 66,
+  },
+});
+
+export default Rectangle;
+import * as React from "react";
+import { Text, StyleSheet } from "react-native";
+import { FontSize, FontFamily, Color } from "../GlobalStyles";
+
+const SINGUPText = () => {
+  return <Text style={styles.singUp}>{`SING UP `}</Text>;
+};
+
+const styles = StyleSheet.create({
+  singUp: {
+    fontSize: FontSize.size_xl,
+    fontWeight: "700",
+    fontFamily: FontFamily.inknutAntiquaBold,
+    color: Color.colorWhite,
+    textAlign: "left",
+    width: 165,
+    height: 81,
+  },
+});
+
+export default SINGUPText;
