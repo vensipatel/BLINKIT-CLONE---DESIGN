@@ -1,0 +1,28 @@
+.it {
+  color: var(--color-limegreen);
+}
+.blinkit {
+  position: absolute;
+  top: 264px;
+  left: 66px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.indias-last-minute {
+  position: absolute;
+  top: 361px;
+  left: 66px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inknut-antiqua);
+  color: var(--color-black);
+}
+.android-large-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--blinkit);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 80px;
+  color: #000200;
+  font-family: var(--font-inter);
+}

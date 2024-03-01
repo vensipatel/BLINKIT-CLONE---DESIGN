@@ -1,0 +1,610 @@
+.it {
+  color: var(--color-limegreen);
+}
+.blinkit {
+  position: absolute;
+  top: 264px;
+  left: 66px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.indias-last-minute {
+  position: absolute;
+  top: 361px;
+  left: 66px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inknut-antiqua);
+  color: var(--color-black);
+}
+.android-large-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--blinkit);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 80px;
+  color: #000200;
+  font-family: var(--font-inter);
+}
+.blinkit4-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 405px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .android-large-3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 800px;
+    overflow: hidden;
+  }
+  .blinkit6-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 376px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .android-large-4 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+  }
+  .android-large-17-child {
+    position: absolute;
+    top: 280px;
+    left: 31px;
+    background-color: var(--color-white);
+    width: 297px;
+    height: 120px;
+  }
+  .email-address,
+  .password {
+    position: absolute;
+    top: 288px;
+    left: 57px;
+  }
+  .password {
+    top: 340px;
+  }
+  .android-large-17-item {
+    position: absolute;
+    top: 487px;
+    left: 31px;
+    border-radius: var(--br-3xs);
+    background-color: #6064b8;
+    width: 297px;
+    height: 66px;
+  }
+  .sing-up {
+    position: absolute;
+    top: 487px;
+    left: 118px;
+    display: inline-block;
+    width: 165px;
+    height: 81px;
+  }
+  .log-in,
+  .sing-up {
+    color: var(--color-white);
+  }
+  .already-singned-up-container {
+    position: absolute;
+    top: 568px;
+    left: 48px;
+    font-size: var(--font-size-lg);
+    font-weight: 300;
+  }
+  .android-large-17-inner {
+    position: absolute;
+    top: 339.5px;
+    left: 29.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 298px;
+    height: 1px;
+  }
+  .photo-2024-03-01-09-30-17-1-icon {
+    position: absolute;
+    top: 58px;
+    left: 105px;
+    border-radius: var(--br-3xs);
+    width: 150px;
+    height: 151.7px;
+    object-fit: cover;
+  }
+  .android-large-17 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .b1,
+  .off {
+    position: absolute;
+    filter: blur(4px);
+  }
+  .b1 {
+    top: 197px;
+    left: 20px;
+    text-shadow: 1px 0 0#07ba03, 0 1px 0#07ba03, -1px 0 0#07ba03, 0-1px 0#07ba03;
+  }
+  .off {
+    top: 351px;
+    left: 102px;
+    font-size: 70px;
+    color: var(--color-white);
+  }
+  .on-exclusive-product {
+    position: absolute;
+    top: calc(50% + 74px);
+    left: 33px;
+    font-size: 25px;
+    color: var(--color-black);
+  }
+  .android-large-13 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 120px;
+    color: var(--color-limegreen);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .android-large-6-child {
+    position: absolute;
+    top: 78px;
+    left: 21px;
+    border-radius: var(--br-3xs);
+    width: 297px;
+    height: 44px;
+  }
+  .search {
+    position: absolute;
+    top: 70px;
+    left: 51px;
+  }
+  .it1 {
+    color: var(--color-limegreen);
+  }
+  .blinkit1 {
+    position: absolute;
+    top: -8px;
+    left: 31px;
+    font-size: 40px;
+    display: inline-block;
+    width: 193px;
+    height: 130px;
+  }
+  .photo-2024-03-01-10-03-44-1-icon {
+    position: absolute;
+    top: 149px;
+    left: 21px;
+    width: 238px;
+    height: 265px;
+    object-fit: cover;
+  }
+  .banana,
+  .pieces {
+    position: absolute;
+    top: 414px;
+    left: 31px;
+  }
+  .pieces {
+    top: 448px;
+  }
+  .android-large-6-item {
+    position: absolute;
+    top: 500px;
+    left: 90px;
+    background-color: #6468c1;
+    width: 116px;
+    height: 46px;
+  }
+  .b {
+    position: absolute;
+    top: 497px;
+    left: 125px;
+    color: var(--color-white);
+  }
+  .photo-2024-03-01-10-03-49-1-icon {
+    position: absolute;
+    top: 583px;
+    left: 21px;
+    width: 238px;
+    height: 266px;
+    object-fit: cover;
+  }
+  .android-large-6 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .giphy-stickers1 {
+    position: relative;
+    width: 226px;
+    height: 55px;
+  }
+  .egg-baking-ingredients-e158413-icon {
+    position: absolute;
+    top: 107px;
+    left: 53px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .egg {
+    margin: 0;
+  }
+  .egg-30,
+  .tomato-je-1-icon {
+    position: absolute;
+    top: 334px;
+    left: 53px;
+  }
+  .tomato-je-1-icon {
+    top: 465px;
+    width: 200px;
+    height: 166.3px;
+    object-fit: cover;
+  }
+  .tometo-22 {
+    position: absolute;
+    top: 658px;
+    left: 53px;
+  }
+  .android-large-15 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .android-large-16-child {
+    position: absolute;
+    top: 44px;
+    left: 44px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-limegreen);
+    width: 271px;
+    height: 66px;
+  }
+  .sweet-tooth {
+    position: absolute;
+    top: 51px;
+    left: 86px;
+    color: var(--color-white);
+  }
+  .wv3xrol-1-icon {
+    position: absolute;
+    top: 147px;
+    left: 44px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .kit-kit {
+    margin: 0;
+  }
+  .kit-kit-10-container {
+    position: absolute;
+    top: 384px;
+    left: 47px;
+  }
+  .xvq39wucl-1-icon {
+    position: absolute;
+    top: 507px;
+    left: 44px;
+    width: 200px;
+    height: 94.8px;
+    object-fit: cover;
+  }
+  .dairy-milk {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .dairy-milk-10-container {
+    position: absolute;
+    top: 639px;
+    left: 44px;
+  }
+  .android-large-16 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .check-out {
+    position: absolute;
+    top: 22px;
+    left: 29px;
+  }
+  .photo-2024-03-01-10-03-39-1-icon {
+    position: absolute;
+    top: 95px;
+    left: 29px;
+    width: 198px;
+    height: 259px;
+    object-fit: cover;
+  }
+  .pampers {
+    margin: 0;
+  }
+  .pampers-366 {
+    position: absolute;
+    top: 366px;
+    left: 34px;
+  }
+  .delivery-charge-container {
+    position: absolute;
+    top: 510px;
+    left: 29px;
+  }
+  .android-large-8-child {
+    position: absolute;
+    top: 612.5px;
+    left: 18.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 326px;
+    height: 1px;
+  }
+  .android-large-8 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .select {
+    margin: 0;
+  }
+  .select-payment {
+    position: absolute;
+    top: 33px;
+    left: 59px;
+  }
+  .icon,
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5 {
+    position: absolute;
+    top: 160px;
+    left: 36px;
+    border-radius: var(--br-xl);
+    width: 144px;
+    height: 128px;
+    object-fit: cover;
+  }
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5 {
+    left: 194px;
+  }
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5 {
+    top: 336px;
+    left: 36px;
+  }
+  .icon3,
+  .icon4,
+  .icon5 {
+    left: 194px;
+  }
+  .icon4,
+  .icon5 {
+    top: 512px;
+    left: 36px;
+    width: 138.9px;
+  }
+  .icon5 {
+    left: 194px;
+    width: 144px;
+  }
+  .android-large-9 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .track-order {
+    position: absolute;
+    top: 33px;
+    left: 35px;
+  }
+  .photo-2024-03-01-10-39-51-1-icon {
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 360px;
+    height: 194px;
+    object-fit: cover;
+  }
+  .pomodoro-timer {
+    position: relative;
+    width: 240px;
+    height: 96px;
+  }
+  .android-large-10 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .android-large-12-child {
+    position: absolute;
+    top: 132px;
+    left: 28px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    width: 314px;
+    height: 85px;
+  }
+  .need-help-with {
+    position: absolute;
+    top: 144px;
+    left: 45px;
+    font-size: var(--font-size-lg);
+  }
+  .blinkit-support-here {
+    position: absolute;
+    top: 171px;
+    left: 90px;
+    font-size: 15px;
+    white-space: pre-wrap;
+  }
+  .android-large-12-item {
+    position: absolute;
+    top: 273px;
+    left: 28px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    width: 314px;
+    height: 85px;
+  }
+  .chat-with-us {
+    position: absolute;
+    top: 289px;
+    left: 45px;
+    color: var(--color-limegreen);
+  }
+  .android-large-12-inner {
+    position: absolute;
+    top: 430px;
+    left: 28px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    width: 314px;
+    height: 84px;
+  }
+  .get-a-callback {
+    position: absolute;
+    top: 441px;
+    left: 45px;
+    color: var(--color-limegreen);
+  }
+  .we-will-call {
+    position: absolute;
+    top: 477px;
+    left: 40px;
+    font-size: 12px;
+  }
+  .giphy-stickers,
+  .navigate {
+    position: relative;
+    width: 68px;
+    height: 68px;
+  }
+  .giphy-stickers {
+    width: 226px;
+    height: 55px;
+  }
+  .android-large-12 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .thank-you {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .for-you-order {
+    margin: 0;
+  }
+  .thank-you-for-container {
+    position: absolute;
+    top: 212px;
+    left: 26px;
+  }
+  .rating-stars {
+    position: relative;
+    width: 216px;
+    height: 56px;
+  }
+  .android-large-11 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .whose-turn-is-it {
+    position: relative;
+    width: 400px;
+    height: 291px;
+  }
+  .android-large-14 {
+    width: 100%;
+    position: relative;
+    background-color: var(--blinkit);
+    height: 800px;
+    overflow: hidden;
+  }
+  .line-div {
+    width: 100%;
+    position: relative;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    height: 1px;
+    transform: rotate(176.05deg);
+    transform-origin: 0 0;
+  }
+                            
